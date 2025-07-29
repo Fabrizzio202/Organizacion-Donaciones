@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organización - Donaciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Organización sin fines de lucro</h1>
+        <nav>
+            <ul>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#donaciones">Donaciones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="proyectos">
+            <h2>Proyectos en curso</h2>
+            <p>Aquí mostraremos los proyectos de impacto social en desarrollo.</p>
+        </section>
+
+        <section id="eventos">
+            <h2>Eventos</h2>
+            <p>Podrás ver y filtrar los próximos eventos de la organización.</p>
+        </section>
+
+        <section id="donaciones">
+            <h2>Realiza tu donación</h2>
+            <form>
+                <label>Nombre:</label>
+                <input type="text" name="nombre" required>
+                <label>Monto:</label>
+                <input type="number" name="monto" required>
+                <button type="submit">Donar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Organización sin fines de lucro</p>
+    </footer>
+</body>
+</html>
